@@ -1,3 +1,5 @@
+using Application;
+using Contract;
 using Infrastructure;
 using InventoryManagement;
 using InventoryManagement.Components;
@@ -20,8 +22,11 @@ builder.Services.AddOpenApiDocument(config =>
 builder.Services.AddControllers();
 
 
-builder.Services.AddScoped<ISeedService, SeedService>();
-builder.Services.AddDbContext<MainDbContext>(options =>
+builder.Services.AddTransient<ISeedService, SeedService>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IInventoryReader, InventoryReader>();
+builder.Services.AddTransient<IInventoryWriter, InventoryWriter>();
+builder.Services.AddDbContextFactory<MainDbContext>(options =>
     options.UseInMemoryDatabase("PortfolioDemoDb"));
 
 
