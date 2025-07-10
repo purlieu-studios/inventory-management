@@ -1,0 +1,11 @@
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddOpenApiDocument();
+var app = builder.Build();
+app.UseOpenApi();
+app.UseSwaggerUi();
+app.UseRouting();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

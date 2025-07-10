@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seeding", "Seeding\Seeding.csproj", "{03F5BD1C-110A-43E0-A530-D95063A596E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NswagGenerator", "NswagGenerator\NswagGenerator.csproj", "{0063616C-637F-4E54-98BD-4527536FD95C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F5BD1C-110A-43E0-A530-D95063A596E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F5BD1C-110A-43E0-A530-D95063A596E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F5BD1C-110A-43E0-A530-D95063A596E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F5BD1C-110A-43E0-A530-D95063A596E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0063616C-637F-4E54-98BD-4527536FD95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0063616C-637F-4E54-98BD-4527536FD95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0063616C-637F-4E54-98BD-4527536FD95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0063616C-637F-4E54-98BD-4527536FD95C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
